@@ -1,0 +1,16 @@
+{
+    "name": "ssh/factory-pattern",
+    "description": "factory pattern description",
+    "autoload": {
+        "psr-4": {
+            "Ssh\\FactoryPattern\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "shajari",
+            "email": "sepideh_ssh@yahoo.com"
+        }
+    ],
+    "require": {}
+}
