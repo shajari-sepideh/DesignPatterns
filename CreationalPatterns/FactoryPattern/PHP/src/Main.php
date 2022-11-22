@@ -1,9 +1,8 @@
 <?php
 require '../vendor/autoload.php';
 
-use Ssh\FactoryPattern\PostToInstagram;
 
-$postToInstagram = new PostToInstagram();
+$new = new \Ssh\FactoryPattern\Platform('Twitter');
+echo $new->post();
 
-$postToInstagram->handle();
 ?>

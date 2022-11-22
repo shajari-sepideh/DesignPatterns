@@ -1,10 +1,13 @@
 <?php
+
 namespace Ssh\FactoryPattern;
 
 class Telegram implements Social
 {
-  public function post()
-  { /* */
-  }
+    public function post()
+    { /* */
+        echo 'telegram';
+    }
 }
+
 ?>
